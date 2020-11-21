@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="JDK" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/addressrecycler" />
+            <option value="$PROJECT_DIR$/addressselectormodule" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/broadcastreceivermodule" />
+            <option value="$PROJECT_DIR$/databindingmodule" />
+            <option value="$PROJECT_DIR$/newqrcodemodule" />
+            <option value="$PROJECT_DIR$/okhttptestmodule" />
+            <option value="$PROJECT_DIR$/qrscannermodule" />
+            <option value="$PROJECT_DIR$/surfaceviewmodule" />
+            <option value="$PROJECT_DIR$/viewstubmodule" />
+            <option value="$PROJECT_DIR$/wechatshartmodule" />
+            <option value="$PROJECT_DIR$/zhifbrecyclerviewmodule" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

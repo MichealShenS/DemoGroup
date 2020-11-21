@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.surfaceviewmodule.HorizontaiView
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="111"
+            android:textSize="50sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="222"
+            android:textSize="50sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="333"
+            android:textSize="50sp"/>
+
+<!--        <ListView-->
+<!--            android:id="@+id/list1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+
+<!--        </ListView>-->
+
+<!--        <ListView-->
+<!--            android:id="@+id/list2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+
+<!--        </ListView>-->
+
+<!--        <ListView-->
+<!--            android:id="@+id/list3"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+
+<!--        </ListView>-->
+
+    </com.example.surfaceviewmodule.HorizontaiView>
+
+</LinearLayout>

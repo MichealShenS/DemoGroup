@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/view_space"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/transparent"
+        android:onClick="spaceCancel" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="15dp"
+                android:text="请选择所在地区"
+                android:textColor="#313131"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/iv_close"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="12dp"
+                android:src="@drawable/close" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/lv_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingTop="22dp"
+            android:paddingBottom="14dp">
+
+            <TextView
+                android:id="@+id/tv_select_province_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:text="请选择"
+                android:textColor="@color/colorWarning"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_select_city_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="请选择"
+                android:textColor="@color/color_text_31"
+                android:textSize="13sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_select_distinct_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="请选择"
+                android:textColor="@color/color_text_31"
+                android:textSize="13sp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/city_recycler_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:overScrollMode="never" />
+    </LinearLayout>
+
+</LinearLayout>

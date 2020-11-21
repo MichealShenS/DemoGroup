@@ -1,0 +1,13 @@
+include ':viewstubmodule'
+include ':surfaceviewmodule'
+include ':broadcastreceivermodule'
+include ':zhifbrecyclerviewmodule'
+include ':newqrcodemodule'
+include ':qrscannermodule'
+include ':databindingmodule'
+include ':wechatshartmodule'
+include ':okhttptestmodule'
+include ':addressselectormodule'
+include ':addressrecycler'
+include ':app'
+rootProject.name = "DemoGroups"
